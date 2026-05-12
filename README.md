@@ -1,101 +1,107 @@
 # 📝 NoteApp
 
-A modern cross-platform note-taking app built with [Expo](https://expo.dev) and [React Native](https://reactnative.dev/).
-
-Create, manage, and organize your notes seamlessly across Android, iOS, and Web.
+A modern cross-platform note-taking app built with **Expo** and **React Native**.  
+Create, manage, and organize your notes seamlessly across **Android, iOS, and Web**.
 
 ---
 
 ## ✨ Features
 
 - 📌 Create, edit, and delete notes
-- 🔍 Search notes instantly
-- 🌙 Clean and responsive UI
-- ⚡ Fast performance with Expo
-- 📱 Cross-platform support
-- 🗂 Organized note management
+- 🔍 Instant search functionality
+- 🌙 Clean and responsive UI with dark mode support
+- ⚡ Fast performance powered by Expo
+- 📱 Full cross-platform support (Android, iOS & Web)
+- 🗂 Well-organized note management
 - 🔄 Real-time updates
 
 ---
 
 ## 📸 Preview
 
-> Add screenshots here
+<!-- Add your screenshots here -->
 
-```txt
-/assets/screenshots/home.png
-/assets/screenshots/editor.png
-🚀 Tech Stack
-React Native
-Expo
-TypeScript
-Expo Router
-📂 Project Structure
+<div align="center">
+  <img src="assets/screenshots/home.png" width="30%" alt="Home Screen">
+  <img src="assets/screenshots/editor.png" width="30%" alt="Editor Screen">
+</div>
+
+---
+
+## 🚀 Tech Stack
+
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **Expo Router**
+
+---
+
+## 📂 Project Structure
+
+```bash
 NoteApp/
-│── app/                # App screens & routes
-│── assets/             # Images, fonts, icons
-│── components/         # Reusable UI components
-│── constants/          # App constants
-│── hooks/              # Custom hooks
-│── scripts/            # Utility scripts
-│── package.json
-│── tsconfig.json
+├── app/              # App screens & routes (Expo Router)
+├── assets/           # Images, fonts, icons, screenshots
+├── components/       # Reusable UI components
+├── constants/        # App constants and themes
+├── hooks/            # Custom React hooks
+├── scripts/          # Utility scripts
+├── package.json
+├── tsconfig.json
 └── README.md
+
 🛠 Installation
-
-Clone the repository:
-
+Bash# Clone the repository
 git clone https://github.com/aditya07879/NoteApp.git
 
-Move into the project directory:
-
+# Navigate to project directory
 cd NoteApp
 
-Install dependencies:
-
+# Install dependencies
 npm install
+
 ▶ Running the App
-
-Start the development server:
-
+Bash# Start the development server
 npx expo start
+Then open the app on:
 
-Then open the app using:
-
-📱 Expo Go
+📱 Expo Go (Scan QR code)
 🤖 Android Emulator
 🍎 iOS Simulator
-🌐 Web Browser
+🌐 Web Browser (w key in terminal)
+
+
 📦 Build for Production
-Android
+Bash# Android
 eas build -p android
-iOS
+
+# iOS
 eas build -p ios
+
 🧪 Linting
-
-Run ESLint:
-
+Bash# Run ESLint
 npx expo lint
-📚 Learn More
-Expo Documentation
-React Native Docs
-Expo Router
-🤝 Contributing
 
+📚 Learn More
+
+Expo Documentation
+React Native Documentation
+Expo Router
+
+
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Fork the repository
-Create a feature branch
-git checkout -b feature-name
-Commit your changes
-git commit -m "Added new feature"
-Push to GitHub
-git push origin feature-name
+Fork the project
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add some amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
-⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+
+⭐ Support
+If you like this project, please give it a ⭐ on GitHub!
 
 👨‍💻 Author
-
 Made with ❤️ by Aditya
