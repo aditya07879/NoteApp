@@ -1,56 +1,107 @@
-# Welcome to your Expo app 👋
+# 📝 NoteApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern cross-platform note-taking app built with **Expo** and **React Native**.  
+Create, manage, and organize your notes seamlessly across **Android, iOS, and Web**.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 📌 Create, edit, and delete notes
+- 🔍 Instant search functionality
+- 🌙 Clean and responsive UI with dark mode support
+- ⚡ Fast performance powered by Expo
+- 📱 Full cross-platform support (Android, iOS & Web)
+- 🗂 Well-organized note management
+- 🔄 Real-time updates
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Preview
 
-In the output, you'll find options to open the app in a
+<!-- Add your screenshots here -->
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<div align="center">
+  <img src="assets/screenshots/home.png" width="30%" alt="Home Screen">
+  <img src="assets/screenshots/editor.png" width="30%" alt="Editor Screen">
+</div>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Tech Stack
 
-When you're ready, run:
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **Expo Router**
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run reset-project
-```
+NoteApp/
+├── app/              # App screens & routes (Expo Router)
+├── assets/           # Images, fonts, icons, screenshots
+├── components/       # Reusable UI components
+├── constants/        # App constants and themes
+├── hooks/            # Custom React hooks
+├── scripts/          # Utility scripts
+├── package.json
+├── tsconfig.json
+└── README.md
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🛠 Installation
+Bash# Clone the repository
+git clone https://github.com/aditya07879/NoteApp.git
 
-### Other setup steps
+# Navigate to project directory
+cd NoteApp
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+# Install dependencies
+npm install
 
-## Learn more
+▶ Running the App
+Bash# Start the development server
+npx expo start
+Then open the app on:
 
-To learn more about developing your project with Expo, look at the following resources:
+📱 Expo Go (Scan QR code)
+🤖 Android Emulator
+🍎 iOS Simulator
+🌐 Web Browser (w key in terminal)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+📦 Build for Production
+Bash# Android
+eas build -p android
 
-Join our community of developers creating universal apps.
+# iOS
+eas build -p ios
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🧪 Linting
+Bash# Run ESLint
+npx expo lint
+
+📚 Learn More
+
+Expo Documentation
+React Native Documentation
+Expo Router
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Fork the project
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add some amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+
+
+⭐ Support
+If you like this project, please give it a ⭐ on GitHub!
+
+👨‍💻 Author
+Made with ❤️ by Aditya
