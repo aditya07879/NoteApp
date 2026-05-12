@@ -1,27 +1,35 @@
-📝 NoteApp
+# 📝 NoteApp
 
-A modern cross-platform note-taking app built with <a href="https://expo.dev">Expo</a> and <a href="https://reactnative.dev/">React Native</a>.
+A modern cross-platform note-taking app built with [Expo](https://expo.dev) and [React Native](https://reactnative.dev/).
+
 Create, manage, and organize your notes seamlessly across Android, iOS, and Web.
 
-✨ Features
-📌 Create, edit, and delete notes
-🔍 Search notes instantly
-🌙 Clean and responsive UI
-⚡ Fast performance with Expo
-📱 Cross-platform support (Android, iOS, Web)
-🗂 Organized note management
-🔄 Real-time updates
-📸 Preview
+---
 
-Add screenshots or GIFs here later
+## ✨ Features
 
+- 📌 Create, edit, and delete notes
+- 🔍 Search notes instantly
+- 🌙 Clean and responsive UI
+- ⚡ Fast performance with Expo
+- 📱 Cross-platform support
+- 🗂 Organized note management
+- 🔄 Real-time updates
+
+---
+
+## 📸 Preview
+
+> Add screenshots here
+
+```txt
 /assets/screenshots/home.png
 /assets/screenshots/editor.png
 🚀 Tech Stack
-<a href="https://reactnative.dev/">React Native</a>
-<a href="https://expo.dev/">Expo</a>
-<a href="https://www.typescriptlang.org/">TypeScript</a>
-<a href="https://expo.github.io/router/docs/">Expo Router</a>
+React Native
+Expo
+TypeScript
+Expo Router
 📂 Project Structure
 NoteApp/
 │── app/                # App screens & routes
@@ -69,9 +77,9 @@ Run ESLint:
 
 npx expo lint
 📚 Learn More
-<a href="https://docs.expo.dev/">Expo Documentation</a>
-<a href="https://reactnative.dev/docs/getting-started">React Native Docs</a>
-<a href="https://docs.expo.dev/router/introduction/">Expo Router</a>
+Expo Documentation
+React Native Docs
+Expo Router
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -90,4 +98,4 @@ If you like this project, give it a ⭐ on GitHub!
 
 👨‍💻 Author
 
-Made with ❤️ by <a href="https://github.com/aditya07879">Aditya</a>
+Made with ❤️ by Aditya
