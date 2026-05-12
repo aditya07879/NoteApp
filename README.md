@@ -22,8 +22,8 @@ Create, manage, and organize your notes seamlessly across **Android, iOS, and We
 <!-- Add your screenshots here -->
 
 <div align="center">
-  <img src="assets/screenshots/home.png" width="30%" alt="Home Screen">
-  <img src="assets/screenshots/editor.png" width="30%" alt="Editor Screen">
+  <img src="assets/screenshots/home.jpeg" width="30%" alt="Home Screen">
+  <img src="assets/screenshots/editor.jpeg" width="30%" alt="Editor Screen">
 </div>
 
 ---
